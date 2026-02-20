@@ -1,0 +1,389 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Georgia, serif;
+  background-color: #fdf8f2;
+  color: #2c2210;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #2a1f14;
+  padding: 15px 30px;
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+}
+
+.navbar a {
+  color: #e8c99a;
+  text-decoration: none;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.navbar a:hover {
+  color: #d4839a;
+}
+
+/* Hero */
+.hero {
+  background-color: #3d2b1a;
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.hero-titel {
+  font-size: 64px;
+  color: white;
+  margin-bottom: 15px;
+}
+
+.hero-text {
+  font-size: 18px;
+  color: #c8b89a;
+  letter-spacing: 2px;
+}
+
+/* Generell sektion */
+.sektion {
+  padding: 60px 40px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* H1 svart */
+h1 {
+  color: #000000;
+  font-size: 32px;
+  margin-bottom: 8px;
+}
+
+/* H2 grå */
+h2 {
+  color: #777777;
+  font-size: 18px;
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+
+/* Mörk sektion */
+.mork-sektion {
+  background-color: #2a1f14;
+  max-width: 100%;
+  padding: 60px 40px;
+}
+
+.mork-sektion h1 {
+  color: #f5ede0;
+  max-width: 1100px;
+  margin: 0 auto 8px auto;
+}
+
+.mork-sektion h2 {
+  color: #a09080;
+  max-width: 1100px;
+  margin: 0 auto 30px auto;
+}
+
+/* Ljus sektion */
+.ljus-sektion {
+  background-color: #f5ede0;
+  max-width: 100%;
+  padding: 60px 40px;
+}
+
+/* Bilder rad */
+.bilder-rad {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.djur-kort {
+  flex: 1;
+  background-color: white;
+  border: 1px solid #e0d0b8;
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.djur-kort img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.djur-kort p {
+  padding: 12px;
+  color: #777777;
+  font-size: 14px;
+}
+
+/* Att Göra grid */
+.attgora-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.attgora-kort {
+  background-color: rgba(255, 255, 255, 0.07);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 8px;
+  padding: 25px;
+}
+
+.attgora-kort:hover {
+  background-color: rgba(255, 255, 255, 0.12);
+}
+
+.ikon {
+  font-size: 36px;
+  display: block;
+  margin-bottom: 12px;
+}
+
+.attgora-kort h3 {
+  color: #f5ede0;
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.attgora-kort p {
+  color: #a09080;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+/* Feature block */
+.feature {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  margin-bottom: 60px;
+  padding-bottom: 60px;
+  border-bottom: 1px solid #e0d0b8;
+}
+
+.feature:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+
+.feature-text {
+  flex: 1;
+}
+
+.feature-text p {
+  color: #5a4a3a;
+  font-size: 15px;
+  line-height: 1.7;
+  margin-bottom: 15px;
+}
+
+.feature-text ul {
+  list-style: none;
+  margin-top: 15px;
+}
+
+.feature-text ul li {
+  padding: 8px 12px;
+  background-color: #e8d9c0;
+  border-radius: 6px;
+  margin-bottom: 8px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.feature-bild {
+  flex: 1;
+}
+
+.feature-bild img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* Tabell */
+.djurtabell {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+
+.djurtabell thead tr {
+  background-color: #2a1f14;
+}
+
+.djurtabell th {
+  padding: 15px 20px;
+  text-align: left;
+  color: #e8a87c;
+  font-size: 13px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.djurtabell td {
+  padding: 12px 20px;
+  border-bottom: 1px solid #e8d9c0;
+  font-size: 15px;
+  vertical-align: middle;
+}
+
+.djurtabell tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.djurtabell tbody tr:hover {
+  background-color: #fdf0e0;
+}
+
+.art-cell {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.art-cell img {
+  width: 55px;
+  height: 55px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #e8d9c0;
+}
+
+.djurtabell a {
+  background-color: #c0622a;
+  color: white;
+  padding: 6px 14px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.djurtabell a:hover {
+  background-color: #d4839a;
+}
+
+/* Formulär */
+.formular {
+  max-width: 600px;
+  background-color: white;
+  padding: 35px;
+  border-radius: 8px;
+  border: 1px solid #e0d0b8;
+}
+
+.rad {
+  display: flex;
+  gap: 20px;
+}
+
+.falt-grupp {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 18px;
+  flex: 1;
+}
+
+.falt-grupp label {
+  font-size: 13px;
+  font-weight: bold;
+  color: #777777;
+  margin-bottom: 6px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.falt-grupp input {
+  padding: 10px 14px;
+  border: 2px solid #e8d9c0;
+  border-radius: 6px;
+  font-size: 15px;
+  font-family: Georgia, serif;
+  background-color: #fdf8f2;
+  outline: none;
+}
+
+.falt-grupp input:focus {
+  border-color: #c0622a;
+}
+
+.fel {
+  color: #cc2200;
+  font-size: 13px;
+  margin-top: 4px;
+  min-height: 18px;
+}
+
+.skicka-knapp {
+  width: 100%;
+  padding: 14px;
+  background-color: #c0622a;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-family: Georgia, serif;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.skicka-knapp:hover {
+  background-color: #d4839a;
+}
+
+.framgang {
+  margin-top: 15px;
+  padding: 12px;
+  background-color: #d4f4dd;
+  color: #1a5c2a;
+  border-radius: 6px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.dold {
+  display: none;
+}
+
+/* Karta */
+.karta-wrapper {
+  border-radius: 8px;
+  overflow: hidden;
+  border: 2px solid #e0d0b8;
+}
+
+/* Footer */
+.footer {
+  background-color: #2a1f14;
+  color: #c8b89a;
+  text-align: center;
+  padding: 40px 20px;
+  line-height: 2;
+}
+
+.footer-copy {
+  margin-top: 15px;
+  font-size: 13px;
+  opacity: 0.6;
+}
