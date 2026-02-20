@@ -1,82 +1,77 @@
-# 🐾 Casa Capybara
+# Casa Capybara
 
-En webbsida skapad som en skoluppgift för Casa Capybara – en zoo med fokus på capybaror, inspirerad av sydamerikansk värme och japansk zen-känsla.
+En statisk webbsida skapad som skolprojekt för **Casa Capybara** – en fiktiv zoo med fokus på capybaror.  
+Designen är inspirerad av sydamerikansk värme kombinerat med en lugn japansk zen-känsla.
 
-Uppgiftens krav var att bygga hela sidan med **endast två filer** – en `index.html` och en `style.css`. Ingen JavaScript-fil, inga extra mappar, inga ramverk. All HTML, struktur och logik ligger i index.html och all styling i style.css.
+Projektets krav var att bygga hela sidan med endast två filer:
 
+- `index.html` – all struktur och innehåll  
+- `style.css` – all styling  
 
-## Innehåll
-
-Sidan innehåller följande sektioner:
-
-- **Hero** – Välkomstbild med sidans namn och slogan
-- **Våra Capybaror** – Fyra bilder på capybaror visade vågrätt
-- **Att Göra** – Sex aktiviteter med ikoner och beskrivningar
-- **Lekpark** – Information om lekparken för barn
-- **Restauranger** – Översikt av de tre restaurangerna
-- **Alla Våra Djur** – Information om djuren på Casa Capybara
-- **Djurtabell** – Tabell med namn, bild, vikt och Wikipedia-länk
-- **Nyhetsbrev** – Formulär för prenumeration
-- **Karta** – Google Maps till adressen
+Ingen JavaScript, inga ramverk och inga extra mappar.
 
 ---
 
-## Krav som uppfylls
+## Innehåll
 
-| Krav | Status |
-|------|--------|
-| Endast en index.html 
-| HTML och CSS 
-| CSS i separat fil (style.css) 
-| Knyts via klasser 
-| Huvudrubrik h1 (svart text) 
-| Underrubriker h2 (grå text) 
-| Bilder på djurart 
-| Bilder vågrätt med avstånd 
-| Sektion "Att Göra" med ikoner 
-| Sektion: Lekpark 
-| Sektion: Restauranger 
-| Sektion: Alla våra djur 
-| Formulär med för- och efternamn 
-| Formulär med e-post och ålder 
-| Validering av fält 
-| Kontroll av e-postformat 
-| Skickar data till webbtjänst 
-| Tabell med namn, art, vikt, länk 
-| Google Maps 
+Webbplatsen innehåller följande sektioner:
+
+- **Hero** – Välkomstsektion med titel och slogan  
+- **Våra Capybaror** – Bilder på capybaror i horisontell layout  
+- **Att Göra** – Aktiviteter med ikoner och beskrivningar  
+- **Lekpark** – Information för barnfamiljer  
+- **Restauranger** – Presentation av tre restauranger  
+- **Alla Våra Djur** – Information om parkens djur  
+- **Djurtabell** – Tabell med namn, bild, vikt och Wikipedia-länk  
+- **Nyhetsbrev** – Formulär med validering  
+- **Karta** – Inbäddad Google Maps
+
+---
+
+## Uppfyllda krav
+
+- ✔ Endast en HTML-fil (`index.html`)
+- ✔ Separat CSS-fil (`style.css`)
+- ✔ Ingen JavaScript eller ramverk
+- ✔ Responsiv layout med bilder
+- ✔ Formulär med validering
+- ✔ Tabell med djurdata
+- ✔ Google Maps inbäddning
+
+---
+
+## Design & tema
+
+Designen kombinerar två stilar:
+
+- Sydamerikanska jordtoner  
+- Sakura-rosa accentfärg  
+- Klassisk typografi (`Georgia, serif`)  
+- 🇯🇵 Japanska inslag som *ようこそ* ("välkommen")
+
+Målet var en varm, lugn och stilren känsla.
 
 ---
 
 ## Google Maps
 
-Kartan pekar på **Skansen, Stockholm** via en inbäddad iframe från Google Maps. Ingen API-nyckel krävs för detta.
-
----
-
-## Formulär och validering
-
-Formuläret validerar följande innan det skickas:
-
-- **Förnamn** – minst 2 bokstäver
-- **Efternamn** – minst 2 bokstäver
-- **E-post** – måste innehålla `@` och ett domännamn
-- **Ålder** – måste vara ett tal mellan 1 och 120
-
-
-
-Sidan har ett japansk-sydamerikanskt tema:
-
-- **Färger** – mörka jordtoner 
-- **Accentfärg** – sakura-rosa 
-- **Typsnitt** – `Georgia, serif` för en klassisk och stilren känsla
-- **Japanska inslag** – `ようこそ` (välkommen) i hero-sektionen och japanska tecken i footern
+Kartan visar **Skansen, Stockholm** via iframe från Google Maps.  
+Ingen API-nyckel behövs.
 
 ---
 
 ## Kom igång
 
-1. Ladda ner eller klona projektet
-2. Se till att `index.html` och `style.css` ligger i samma mapp
-3. Öppna `index.html` i en webbläsare
+1. Klona eller ladda ner projektet
+2. Lägg `index.html` och `style.css` i samma mapp
+3. Öppna `index.html` i webbläsaren
 
-Ingen installation eller server krävs – sidan är helt statisk.
+Ingen installation krävs – sidan är helt statisk.
+
+---
+
+## Projektstatus
+
+✅ Klar skoluppgift  
+✅ Statisk webbplats  
+✅ Kan användas som portfolio-projekt
